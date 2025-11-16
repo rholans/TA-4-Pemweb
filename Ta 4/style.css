@@ -1,0 +1,153 @@
+/* ====== GLOBAL STYLE ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #2a4d69;
+}
+
+a {
+    color: #1e88e5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    background: #fff;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ====== BUTTON ====== */
+button, input[type="submit"], input[type="reset"] {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #166fbd;
+}
+
+/* ====== FORM ====== */
+form {
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ====== ERROR & SUCCESS ====== */
+.error {
+    background: #ffebee;
+    color: #d32f2f;
+    padding: 10px;
+    border-left: 5px solid #d32f2f;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.success {
+    background: #e8f5e9;
+    color: #388e3c;
+    padding: 10px;
+    border-left: 5px solid #388e3c;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* ====== TABLE STYLE ====== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #fff;
+}
+
+table th {
+    background-color: #1e88e5;
+    color: white;
+    padding: 12px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr:hover {
+    background: #f1f7ff;
+}
+
+.action-link a {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* ====== HEADER BAR (optional) ====== */
+.header {
+    background: #1e88e5;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ====== LOGIN BOX ====== */
+.login-box {
+    width: 350px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 80px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+/* Responsif */
+@media (max-width: 500px) {
+    .container {
+        width: 94%;
+        padding: 15px;
+    }
+
+    .login-box {
+        width: 90%;
+    }
+}
