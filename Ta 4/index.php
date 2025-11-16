@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$default_user = "admin";
+$default_user = "Risdam";
 $default_pass = "123";
 
 if (isset($_SESSION["login"])) {
@@ -49,3 +49,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 </body>
 </html>
+
