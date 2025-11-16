@@ -1,6 +1,6 @@
 # TA-4-Pemweb
 
-<img width="1350" height="832" alt="image" src="https://github.com/user-attachments/assets/344a5d37-f50a-4bc5-8963-e280334bba6c" />
+<img width="655" height="519" alt="image" src="https://github.com/user-attachments/assets/af5c5874-f0cf-4df9-bfb5-741fe8d6bfbd" />
 
 LAMAN LOGIN 
 
